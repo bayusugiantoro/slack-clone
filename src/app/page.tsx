@@ -1,10 +1,5 @@
-import { Button } from "@/components/ui/button";
+import { AuthScreen } from "@/features/auth/components/auth-screen";
 
 export default function Home() {
-  return (
-    <div className="flex items-center justify-between">
-      Hello World
-      <Button variant="destructive">Click Me</Button>
-    </div>
-  );
+  return <AuthScreen />;
 }
